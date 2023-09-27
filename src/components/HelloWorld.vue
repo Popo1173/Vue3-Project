@@ -32,8 +32,8 @@ defineProps<{
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
-<style scoped>
+<style lang="scss" scope>
 .read-the-docs {
-  color: #888;
+  color: red;
 }
 </style>
