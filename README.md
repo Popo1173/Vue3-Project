@@ -12,6 +12,12 @@ https://eslint.org/docs/latest/use/configure/configuration-files
 
 https://prettier.io/
 
+## sassをインストール
+
+```
+npm i -D sass
+```
+
 ---
 
 # Vue 3 + TypeScript + Vite
