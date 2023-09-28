@@ -18,6 +18,21 @@ https://prettier.io/
 npm i -D sass
 ```
 
+## stylelint
+
+https://qiita.com/heeroo_ymsw/items/3fca90ba41986ebf6cc5
+
+```
+npm i --save-dev　stylelint-config-recommended-scss
+npm i --save-dev stylelint-order
+npm i --save-dev postcss@8
+npm i --save-dev　stylelint-config-recommended-vue
+npm i --save-dev stylelint-config-recess-order
+npm i --save-dev stylelint-config-prettier-scss
+
+npm install --save-dev prettier prettier-plugin-vue
+```
+
 ---
 
 # Vue 3 + TypeScript + Vite

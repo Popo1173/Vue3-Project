@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const count = ref(0);
+const count = ref(0)
+// const test = "t";
 
 defineProps<{
-  msg: string;
-}>();
+  msg: string
+}>()
 </script>
 
 <template>
@@ -36,6 +37,14 @@ defineProps<{
 <style lang="scss" scope>
 .read-the-docs {
   color: red;
+  margin-bottom: 2rem;
+  display: block;
   margin-top: 1rem;
+
+  &-test {
+    display: block;
+    z-index: 2;
+    margin-top: 1rem;
+  }
 }
 </style>
